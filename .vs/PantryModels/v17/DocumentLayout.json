@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryModels\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43E6261D-F7DB-4B6E-8FB0-CD10B8753BBD}|..\\PantryInventoryUI\\PantryInventoryUI.csproj|c:\\users\\my pc\\documents\\school stuff\\integ\\pantryinventoryui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E6261D-F7DB-4B6E-8FB0-CD10B8753BBD}|..\\PantryInventoryUI\\PantryInventoryUI.csproj|c:\\users\\my pc\\documents\\school stuff\\integ\\pantryinventoryui\\uioptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E55A0A9-24E8-4201-8F39-212AE3D16971}|..\\InventoryBusiness\\InventoryBusiness.csproj|c:\\users\\my pc\\documents\\school stuff\\integ\\inventorybusiness\\inventoryfeatures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D29B56-C5C6-49FF-8E62-89F8DABD7657}|..\\PantryInventoryData\\PantryInventoryData.csproj|c:\\users\\my pc\\documents\\school stuff\\integ\\pantryinventorydata\\inventorydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D29B56-C5C6-49FF-8E62-89F8DABD7657}|..\\PantryInventoryData\\PantryInventoryData.csproj|c:\\users\\my pc\\documents\\school stuff\\integ\\pantryinventorydata\\sqldbinventorydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDC8BF0-2882-4861-B9BE-45A8E40674EF}|PantryModels.csproj|c:\\users\\my pc\\documents\\school stuff\\integ\\pantrymodels\\shelves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDDC8BF0-2882-4861-B9BE-45A8E40674EF}|PantryModels.csproj|solutionrelative:shelves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\TestDL\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UIOptions.cs",
+              "DocumentMoniker": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventoryUI\\UIOptions.cs",
+              "RelativeDocumentMoniker": "..\\PantryInventoryUI\\UIOptions.cs",
+              "ToolTip": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventoryUI\\UIOptions.cs",
+              "RelativeToolTip": "..\\PantryInventoryUI\\UIOptions.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAUwDEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T09:09:51.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SqlDBInventoryData.cs",
+              "DocumentMoniker": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventoryData\\SqlDBInventoryData.cs",
+              "RelativeDocumentMoniker": "..\\PantryInventoryData\\SqlDBInventoryData.cs",
+              "ToolTip": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventoryData\\SqlDBInventoryData.cs",
+              "RelativeToolTip": "..\\PantryInventoryData\\SqlDBInventoryData.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAwEcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T05:23:39.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\TestDL\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\TestDL\\Class1.cs",
+              "ToolTip": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\TestDL\\Class1.cs",
+              "RelativeToolTip": "..\\TestDL\\Class1.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T09:41:52.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventoryUI\\Program.cs",
+              "RelativeDocumentMoniker": "..\\PantryInventoryUI\\Program.cs",
+              "ToolTip": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventoryUI\\Program.cs",
+              "RelativeToolTip": "..\\PantryInventoryUI\\Program.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwCgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T12:42:05.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InventoryFeatures.cs",
+              "DocumentMoniker": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\InventoryBusiness\\InventoryFeatures.cs",
+              "RelativeDocumentMoniker": "..\\InventoryBusiness\\InventoryFeatures.cs",
+              "ToolTip": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\InventoryBusiness\\InventoryFeatures.cs",
+              "RelativeToolTip": "..\\InventoryBusiness\\InventoryFeatures.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T12:42:01.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InventoryData.cs",
+              "DocumentMoniker": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventoryData\\InventoryData.cs",
+              "RelativeDocumentMoniker": "..\\PantryInventoryData\\InventoryData.cs",
+              "ToolTip": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventoryData\\InventoryData.cs",
+              "RelativeToolTip": "..\\PantryInventoryData\\InventoryData.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T12:41:52.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Shelves.cs",
+              "DocumentMoniker": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryModels\\Shelves.cs",
+              "RelativeDocumentMoniker": "Shelves.cs",
+              "ToolTip": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryModels\\Shelves.cs",
+              "RelativeToolTip": "Shelves.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T12:41:45.749Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
