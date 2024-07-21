@@ -8,16 +8,44 @@ namespace InventoryBusiness
     {
         InventoryData inventoryData = new InventoryData();
 
-        public List<Shelves> InventoryDisplay() 
+        public List<Shelves> InventoryDisplay()
         {
-            List<Shelves> items = inventoryData.GetShelves();
+            List<Shelves> items = inventoryData.GetItemFromShelves();
             return items;
         }
 
-        public void InventoryAdd(Shelves shelves)
+        public bool InventoryAdd(string ItemName, string ItemType, int Quantity)
         {
-            inventoryData.AddItem(shelves);
+            inventoryData.AddItemOnShelves(ItemName, ItemType, Quantity);
+            return true;
         }
+
+        public int InventoryGet(string ItemName, int GetQuantity)
+        {
+            int FromShelfQuantity = inventoryData.CheckIfItemIsOnShelves(ItemName);
+
+            if (FromShelfQuantity >= GetQuantity)
+            {
+                int NewQuantity = FromShelfQuantity - GetQuantity;
+                inventoryData.UpdateItemOnShelves(ItemName, NewQuantity);
+                return NewQuantity;
+            }
+            else
+            {
+                Console.WriteLine("Insufficient quantity on shelf.");
+                return 0;
+            }
+        }
+
+
+        public bool InventoryDelete(int Quantity)
+        {
+            inventoryData.DeleteItemFromShelves(Quantity);
+            return true;
+        }
+
+
+
 
     }
 }

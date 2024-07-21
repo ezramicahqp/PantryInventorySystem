@@ -500,7 +500,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "PantryInventoryData >= 1.0.0"
+      "PantryInventoryData >= 1.0.0",
+      "PantryModels >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -509,11 +510,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\InventoryBusiness\\InventoryBusiness.csproj",
+      "projectUniqueName": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryModels\\InventoryBusiness\\InventoryBusiness.csproj",
       "projectName": "InventoryBusiness",
-      "projectPath": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\InventoryBusiness\\InventoryBusiness.csproj",
+      "projectPath": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryModels\\InventoryBusiness\\InventoryBusiness.csproj",
       "packagesPath": "C:\\Users\\My PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\InventoryBusiness\\obj\\",
+      "outputPath": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryModels\\InventoryBusiness\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\My PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -530,8 +531,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryInventoryData\\PantryInventoryData.csproj": {
-              "projectPath": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryInventoryData\\PantryInventoryData.csproj"
+            "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryModels\\PantryInventoryData\\PantryInventoryData.csproj": {
+              "projectPath": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryModels\\PantryInventoryData\\PantryInventoryData.csproj"
+            },
+            "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryModels\\PantryModels\\PantryModels.csproj": {
+              "projectPath": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryModels\\PantryModels\\PantryModels.csproj"
             }
           }
         }

@@ -1,10 +1,10 @@
 ﻿using PantryModels;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Data.SqlClient;
 
 namespace PantryInventoryData
 {
@@ -12,7 +12,8 @@ namespace PantryInventoryData
 
     {
         string connectionString
-        = "Data Source = DESKTOP-1RV72GH\\SQLEXPRESS; Initial Catalog = PantryInventory; Integrated Security = True;";
+        //= "Data Source = DESKTOP-1RV72GH\\SQLEXPRESS; Initial Catalog = PantryInventory; Integrated Security = True;";
+        = "Server=tcp:104.43.105.247,1433; Database= PantryInventory; User Id=sa; Password=micahQP2002!";
 
         SqlConnection sqlConnection;
 
@@ -51,6 +52,34 @@ namespace PantryInventoryData
             return shelves;
         }
 
+      
+
+        public int CheckIfItemExist(string itemName)
+        {
+            int quantity = 0;
+
+            string selectStatement = "SELECT Quantity FROM Shelves WHERE ItemName = @ItemName";
+
+            using (SqlCommand selectCommand = new SqlCommand(selectStatement, sqlConnection))
+            {
+                selectCommand.Parameters.AddWithValue("@ItemName", itemName);
+
+                sqlConnection.Open();
+
+                using (SqlDataReader reader = selectCommand.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        quantity = Convert.ToInt32(reader["Quantity"]);
+                    }
+                }
+
+                sqlConnection.Close();
+            }
+
+            return quantity;
+        }
+
         public int AddItem(string ItemName, string ItemType, int Quantity)
         {
             int success;
@@ -65,6 +94,41 @@ namespace PantryInventoryData
             sqlConnection.Open();
 
             success = insertCommand.ExecuteNonQuery();
+
+            sqlConnection.Close();
+
+            return success;
+        }
+
+        public int UpdateItem(string ItemName, int newQuantity)
+        {
+            int success;
+
+            string updateStatement = $"UPDATE Shelves SET Quantity = @Quantity WHERE ItemName = @ItemName";
+            SqlCommand updateCommand = new SqlCommand(updateStatement, sqlConnection);
+            sqlConnection.Open();
+
+            updateCommand.Parameters.AddWithValue("@Quantity", newQuantity);
+            updateCommand.Parameters.AddWithValue("@ItemName", ItemName);
+
+            success = updateCommand.ExecuteNonQuery();
+
+            sqlConnection.Close();
+
+            return success;
+        }
+
+        public int DeleteItem(int Quantity)
+        {
+            int success;
+
+            string deleteStatement = $"DELETE FROM Shelves WHERE Quantity = @Quantity";
+            SqlCommand deleteCommand = new SqlCommand(deleteStatement, sqlConnection);
+            sqlConnection.Open();
+
+            deleteCommand.Parameters.AddWithValue("@Quantity", Quantity);
+
+            success = deleteCommand.ExecuteNonQuery();
 
             sqlConnection.Close();
 

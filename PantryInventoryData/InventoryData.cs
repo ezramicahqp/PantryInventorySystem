@@ -9,6 +9,7 @@ namespace PantryInventoryData
     {
         List<Shelves> shelves;
         SqlDBInventoryData sqlDBInventoryData;
+
         public InventoryData()
         {
             shelves = new List<Shelves>();
@@ -16,15 +17,31 @@ namespace PantryInventoryData
 
         }
 
-        public List<Shelves> GetShelves()
+        public List<Shelves> GetItemFromShelves()
         {
             shelves = sqlDBInventoryData.GetShelves();
             return shelves;
         }
 
-        public int AddItem(Shelves shelves)
+        public int CheckIfItemIsOnShelves(string ItemName) 
         {
-            return sqlDBInventoryData.AddItem(shelves.ItemName, shelves.ItemType, shelves.Quantity);
+            return sqlDBInventoryData.CheckIfItemExist(ItemName);
         }
+
+        public int AddItemOnShelves(string ItemName, string ItemType, int Quantity)
+        {
+            return sqlDBInventoryData.AddItem(ItemName, ItemType, Quantity);
+        }
+
+        public int UpdateItemOnShelves(string ItemName, int NewQuantity)
+        {
+            return sqlDBInventoryData.UpdateItem(ItemName, NewQuantity );
+        }
+
+        public int DeleteItemFromShelves(int Quantity)
+        {
+            return sqlDBInventoryData.DeleteItem(Quantity);
+        }
+
     }
 }

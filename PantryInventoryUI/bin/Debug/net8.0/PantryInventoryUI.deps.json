@@ -91,7 +91,8 @@
       "System.Security.Principal.Windows/4.7.0": {},
       "InventoryBusiness/1.0.0": {
         "dependencies": {
-          "PantryInventoryData": "1.0.0"
+          "PantryInventoryData": "1.0.0",
+          "PantryModels": "1.0.0"
         },
         "runtime": {
           "InventoryBusiness.dll": {}

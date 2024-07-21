@@ -14,41 +14,45 @@ namespace PantryInventoryUI
         {
             Menu();
         }
-            static void Menu()
+        static void Menu()
         {
-                UIOptions uiOptions = new UIOptions();
+            UIOptions uiOptions = new UIOptions();
 
-                Console.WriteLine("Welcome to the Pantry! \n\nWhat would you like to do?\n");
-                Console.WriteLine("1.Display Item \n2.Get an item \n3.Exit");
+            Console.WriteLine("Welcome to the Pantry! \n\nWhat would you like to do?\n");
+            Console.WriteLine("1.Display Item \n2.Add an item \n3.Get an item \n4.Exit");
 
-                int input = Convert.ToInt16(Console.ReadLine());
-                string ItemName = null, ItemType = null;
-                int Quantity = 0;
+            int input = Convert.ToInt16(Console.ReadLine());
+            string ItemName = null, ItemType = null;
+            int Quantity = 0;
 
-                Console.WriteLine("-----------------------------------");
+            Console.WriteLine("-----------------------------------");
 
-                switch (input)
-                {
-                    case 1:
-                        uiOptions.Display();
-                        Menu();
-                        break;
+            switch (input)
+            {
+                case 1:
+                    uiOptions.Display();
+                    Menu();
+                    break;
 
-                    case 2:
-                        uiOptions.AddItem(ItemName, ItemType, Quantity);
-                        Menu();
-                        break;
-                    case 3:
-                        Console.WriteLine("\nThank you for your visit. Good day :) ");
-                        break;
+                case 2:
+                    uiOptions.AddItem(ItemName, ItemType, Quantity);
+                    Menu();
+                    break;
+                case 3:
+                    uiOptions.GetItem(ItemName, Quantity);
+                    Menu();
+                    break;
+                case 4:
+                    Console.WriteLine("\nThank you for your visit. Good day :) ");
+                    break;
 
                 default:
-                        Console.WriteLine("\nInvalid Input!");
-                        Menu();
-                        break;
-                }
-         
-           
+                    Console.WriteLine("\nInvalid Input!");
+                    Menu();
+                    break;
             }
+
+
+        }
     }
 }

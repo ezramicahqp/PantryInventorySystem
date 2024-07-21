@@ -21,14 +21,21 @@ namespace PantryInventoryUI
             {
                 Console.WriteLine(shelf.ItemName);
                 Console.WriteLine(shelf.ItemType);
-                Console.WriteLine(shelf.Quantity + "\n");
+                if (shelf.Quantity == 0)
+                {
+                    inventoryFeatures.InventoryDelete(shelf.Quantity);
+                }
+                else
+                {
+                    Console.WriteLine(shelf.Quantity + "\n");
+                } 
             }
 
         }
 
         public void AddItem(string ItemName, string ItemType, int Quantity)
         {
-            Console.WriteLine("You're about to get an item. . .\n");
+            Console.WriteLine("You're about to add an item. . .\n");
             Console.WriteLine("-----------------------------------");
 
 
@@ -39,17 +46,31 @@ namespace PantryInventoryUI
             Console.Write("Item quantity: ");
             Quantity = Convert.ToInt32(Console.ReadLine());
 
-            Shelves shelves = new Shelves
-            {
-                ItemName = ItemName,
-                ItemType = ItemType,
-                Quantity = (byte)Quantity
-            };
+            inventoryFeatures.InventoryAdd(ItemName, ItemType, Quantity);
 
- 
-            inventoryFeatures.InventoryAdd(shelves);
-            
         }
-       
+
+        public void GetItem(string ItemName, int Quantity)
+        {
+            Console.WriteLine("You're about to get an item. . .\n");
+            Console.WriteLine("-----------------------------------");
+
+            Console.Write("Item name: ");
+            ItemName = Console.ReadLine();
+            Console.Write("Item quantity: ");
+            Quantity = Convert.ToInt32(Console.ReadLine());
+
+
+            int retrievedQuantity = inventoryFeatures.InventoryGet(ItemName, Quantity);
+
+            if (retrievedQuantity > 0)
+            {
+                Console.WriteLine($"{retrievedQuantity} units of {ItemName} have been retrieved from the shelf.");
+            } else if(retrievedQuantity < 0) 
+            {
+                Console.WriteLine($"Unable to retrieve {Quantity} units of {ItemName} from the shelf.");
+            }
+        }
+
     }
 }

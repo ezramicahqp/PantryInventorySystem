@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PantryInventoryUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca115f0c1e01221720c1d55b3afde9b346b7e9ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0d8fa37d3b5e5b51c371cf070763167c7444929")]
 [assembly: System.Reflection.AssemblyProductAttribute("PantryInventoryUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PantryInventoryUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

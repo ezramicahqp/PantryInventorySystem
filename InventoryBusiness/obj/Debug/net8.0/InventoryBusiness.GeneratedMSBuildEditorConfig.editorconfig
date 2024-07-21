@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = InventoryBusiness
-build_property.ProjectDir = C:\Users\My PC\Documents\School Stuff\Integ\PantryInventorySystem\InventoryBusiness\
+build_property.ProjectDir = C:\Users\My PC\Documents\School Stuff\Integ\PantryInventorySystem\PantryModels\InventoryBusiness\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

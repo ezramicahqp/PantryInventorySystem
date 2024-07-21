@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fvruEtYQXBNc7zODcyxtK7TgyZjNZcxASWN2+Jl+qX+vzs8fehBNojpy+7EjfsOxu8uO0BW27447ZAJpGL0V+A==",
+  "dgSpecHash": "hx20PQDzeCTm9hLFpIaDasAPPlOIqzQh7IS7KjL1WdJXfIgoeTZKawDfR5eYpjHj0FshJCiuDlEfVnSSmTeK5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryInventoryUI\\PantryInventoryUI.csproj",
+  "projectFilePath": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryModels\\PantryInventoryUI\\PantryInventoryUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\My PC\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\My PC\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

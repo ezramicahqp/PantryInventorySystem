@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryInventoryData\\PantryInventoryData.csproj": {}
+    "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryModels\\PantryInventoryData\\PantryInventoryData.csproj": {}
   },
   "projects": {
-    "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryInventoryData\\PantryInventoryData.csproj": {
+    "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryModels\\PantryInventoryData\\PantryInventoryData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryInventoryData\\PantryInventoryData.csproj",
+        "projectUniqueName": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryModels\\PantryInventoryData\\PantryInventoryData.csproj",
         "projectName": "PantryInventoryData",
-        "projectPath": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryInventoryData\\PantryInventoryData.csproj",
+        "projectPath": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryModels\\PantryInventoryData\\PantryInventoryData.csproj",
         "packagesPath": "C:\\Users\\My PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryInventoryData\\obj\\",
+        "outputPath": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryModels\\PantryInventoryData\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\My PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryModels\\PantryModels.csproj": {
-                "projectPath": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryModels\\PantryModels.csproj"
+              "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryModels\\PantryModels\\PantryModels.csproj": {
+                "projectPath": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryModels\\PantryModels\\PantryModels.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryModels\\PantryModels.csproj": {
+    "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryModels\\PantryModels\\PantryModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryModels\\PantryModels.csproj",
+        "projectUniqueName": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryModels\\PantryModels\\PantryModels.csproj",
         "projectName": "PantryModels",
-        "projectPath": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryModels\\PantryModels.csproj",
+        "projectPath": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryModels\\PantryModels\\PantryModels.csproj",
         "packagesPath": "C:\\Users\\My PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryModels\\obj\\",
+        "outputPath": "C:\\Users\\My PC\\Documents\\School Stuff\\Integ\\PantryInventorySystem\\PantryModels\\PantryModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\My PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
